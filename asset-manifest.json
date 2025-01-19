@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/openresearchdirectory/static/css/main.fa36c66d.css",
-    "main.js": "/openresearchdirectory/static/js/main.13a5db3b.js",
+    "main.css": "/openresearchdirectory/static/css/main.867e2933.css",
+    "main.js": "/openresearchdirectory/static/js/main.dbc0423e.js",
     "index.html": "/openresearchdirectory/index.html",
-    "main.fa36c66d.css.map": "/openresearchdirectory/static/css/main.fa36c66d.css.map",
-    "main.13a5db3b.js.map": "/openresearchdirectory/static/js/main.13a5db3b.js.map"
+    "main.867e2933.css.map": "/openresearchdirectory/static/css/main.867e2933.css.map",
+    "main.dbc0423e.js.map": "/openresearchdirectory/static/js/main.dbc0423e.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa36c66d.css",
-    "static/js/main.13a5db3b.js"
+    "static/css/main.867e2933.css",
+    "static/js/main.dbc0423e.js"
   ]
 }
