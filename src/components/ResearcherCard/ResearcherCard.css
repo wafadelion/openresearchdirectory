@@ -1,0 +1,84 @@
+/* src/components/ResearcherCard/ResearcherCard.css */
+.researcher-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 16px;
+    max-width: 340px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: white;
+  }
+  
+  .researcher-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .researcher-name {
+    margin: 0 0 12px 0;
+    color: #2d3748;
+    font-size: 1.5rem;
+  }
+  
+  .researcher-location, 
+  .researcher-field {
+    color: #718096;
+    margin: 8px 0;
+    font-size: 0.95rem;
+  }
+  
+  .researcher-description {
+    margin: 16px 0;
+    color: #4a5568;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .researcher-description.expanded {
+    max-height: 1000px; /* Large enough to contain content */
+  }
+  
+  .show-more-btn {
+    background: none;
+    border: none;
+    color: #4299e1;
+    cursor: pointer;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+  }
+  
+  .show-more-btn:hover {
+    color: #2b6cb0;
+  }
+  
+  .researcher-links {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .social-link {
+    color: #4a5568;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover {
+    background-color: #edf2f7;
+    color: #2b6cb0;
+    transform: translateY(-1px);
+  }
